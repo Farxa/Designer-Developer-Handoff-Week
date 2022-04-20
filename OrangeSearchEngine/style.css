@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+header {
+    margin: 20px auto;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #031D5B;
+    
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+a:visited {
+    color: #031D5B;
+}
+
+.iphone_image {
+    width: 80vw;
+    margin-top: 20px;   
+}
+
+.search_input {
+    width: 90vw;
+    margin-top: 2rem;
+    border: 2px solid #F8765E;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #031D5B;
+    margin-top: 2rem;
+    padding: 2rem 4rem 1rem 4rem;
+    font-weight: 800;
+}
+
+.information {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #031D5B;
+    width: 65vw;
+    margin: 1rem auto;
+}
+
+.features{
+    color: #031D5B;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: inline;
+}
+
+.feature-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#button-download {
+    padding: 2rem;
+    background-color: #031D5B;
+    color: #F8F8F8;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+    border: 0;
+    box-shadow: 0px 4px 4px 0px #031D5B40;
+
+}
+
+#button-download:hover {
+    background-color: #5B6C94;
+}
+
+.rating-container img {
+    width: 1.6rem;
+    /* margin-top: 1rem; */
+}
+
+.rating {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #031D5B;
+}
+
+footer p {
+    color: #B6BBC9;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.rating-container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start
+}
+
+@media screen and (min-width: 480px) {
+    nav {
+        margin: 1rem 20rem;
+    }
+
+    .iphone_image {
+        width: 60%;
+    }
+
+    .search_input {
+        width: 80vw;
+    }
+
+    h1 {
+        margin: 2rem 7rem;
+    }
+
+    .information {
+        width: 60vw;
+        margin-bottom: 2rem;
+    }
+
+    .feature-container {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 1rem 20rem;
+     }
+
+     .rating-container-main {
+         margin-top: 2rem;
+     }
+
+     footer {
+         margin-top: 8rem;
+     }
+}
+
+@media screen and (min-width: 1020px) { 
+
+    body {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navigation-container li a {
+        font-size: 2.4rem
+    }
+
+    .navigation-container li {
+        margin-left: 4rem;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 10rem;
+    }
+
+    .search_input {
+        width: 70%;
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+
+    h1 {
+        font-size: 4.8rem;
+        font-weight: 800;
+        width: 70%;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .information {
+        font-size: 2.4rem;
+        width: 70%;
+        text-align: left;
+        margin: 0;
+    }  
+
+    .features {
+        font-size: 1.6rem;
+        margin-right: 2rem;
+    }
+    
+    .feature-container {
+        margin: 3rem 0;
+        justify-content: flex-start;
+    }
+
+    .button-rating-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .rating-container-main {
+        margin-left: 2rem;
+    }
+
+    .information-container {
+        text-align: left;
+    }
+
+    footer p {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .button-download {
+        font-size: 2.4rem;
+    }
+
+}
