@@ -1,11 +1,11 @@
-before organisational slide  introduce myself as instructor.
+before organisational slide introduce myself as instructor.
 
 no need for introduction of students since they all know eachother, pass down marker and post-its they can write their names
 
-slide 1: organisational. - one person should remind us of breaks
+- slide 1: organisational. - one person should remind us of breaks
 
 
-slide 3: The Designer-Developer Handoff:
+- slide 3: The Designer-Developer Handoff:
 
 "The developer handoff is often the most critical — yet frustrating — stage in the development
 process of a digital product: the stage when a design or prototype is ready for developers to
@@ -38,10 +38,9 @@ work and not all developers are adept at or interested in learning to write the 
 When they are forced into this position, the steep learning curve adds more time to projects 
 and the resulting reworks and debugging sends costs spiraling out of control. 
 
-Improve Designer-Developer Communication
-Over the years, we’ve looked closely at the breakdown between designers and developers and 
-we’ve identified areas where improvements could create a faster, less contentious, 
-and more streamlined handoff. Good communication is key in pretty much any relationship, 
+- Improve Designer-Developer Communication:
+
+Good communication is key in pretty much any relationship, 
 so it makes sense that it’s a requirement for a smooth design-to-dev handoff. Communication 
 breakdowns can result in all kinds of issues and misunderstandings — even in different 
 interpretations of the same goals, which can lead to confusing or downright bad UX. 
@@ -51,19 +50,19 @@ And no product team has time for that."
 
 
 
-slide 5: the image - only general introduction no details about HTML. 
+- slide 5: the image - only general introduction no details about HTML. 
 Try out the website without css using the chrome extension
 
 
 
-Slide 6: Hyper Text Markup Language: The idea and terminology evolved from the "marking up" of paper manuscripts 
+- Slide 6: Hyper Text Markup Language: The idea and terminology evolved from the "marking up" of paper manuscripts 
 (i.e., the revision instructions by editors).
 Markup refers to data included in an electronic document which is distinct from the document's content in that it is 
 typically not included in representations of the document for end users.
 Markup is often used to control the display of the document or to enrich its content to facilitate automated processing.
 
 
-slide 8: The DOM (Document Object Model) is a representation that contains all elements of an HTML document, 
+- slide 8: The DOM (Document Object Model) is a representation that contains all elements of an HTML document, 
 their format, and the browser state at a specific moment. 
 The DOM structure is usually represented as a tree of nodes, 
 where we can see which nodes (such as <html>) have other nodes within, such as <head>.
@@ -73,7 +72,7 @@ Any visible changes occurring may then be reflected in the display of the docume
 
 
 
-Slide 12: Headings are block elements. 
+- Slide 12: Headings are block elements. 
 <h1> is a  first level heading tag. Normally there’s only one of these on a page, 
     and it’s used to indicate the most important header.
     Only use one <h1> per page - this should represent the main heading/subject for the whole
@@ -111,7 +110,7 @@ Alt text is also displayed on the page if the image can't be loaded for some rea
 for example, network errors, content blocking.
 
 
-also talk about:$
+also talk about:
 <label for="age">Age</label>
 <input type="number" id="age">
 <select> <option>
@@ -119,4 +118,13 @@ also talk about:$
 
 
 
-    2:25
+- slide 20:
+responsive web design: back in the days
+they needed to create different html pages for different devices. But with responsive webdesign
+we need one html document that can be manipulated and styled using css to meet the siZes of any device-width
+
+
+- slide 21: why responsive design came to life? in the past only very few users surfed 
+the internet on their mobile devices dew to the huge webpages in comparison with the display
+
+
