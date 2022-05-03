@@ -1,79 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orange Search Engine</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;800&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;800&family=Roboto:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</head>
-<body>
-    <header class="header-container" >
-       <img src="./images/logo.png" alt="Orange search engine logo">
+  <body>
+    <header class="header-container">
+      <img src="./images/logo.png" alt="Orange search engine logo" />
 
-       <nav>
-            <ul class="navigation-container" >
-                <li> <a href="#"> Benefit </a></li>
-                <li> <a href="#"> Pricing </a></li>
-                <li> <a href="#"> Testimonials </a></li>
-            </ul>
-       </nav>
+      <nav>
+        <ul class="navigation-container">
+          <li><a href="#"> Benefit </a></li>
+          <li><a href="#"> Pricing </a></li>
+          <li><a href="#"> Testimonials </a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <img class="iphone_image" src="./images/iPhoneMockupHeader_Phone.svg" alt="Iphone mockup image">
+      <img
+        class="iphone_image"
+        src="./images/iPhoneMockupHeader_Phone.svg"
+        alt="Iphone mockup image"
+      />
 
-        <section class="information-container" >
-            <input class="search_input" type="text" placeholder="Search the web" >
-            <h1>Tired of your data being squeezed? Here to help! </h1>
-            <p class="information" >
-                Get the online privacy protection you deserve for free with one 
-                download in the App store:
-            </p>
+      <section class="information-container">
 
-            <div class="feature-container">
-                <div >
-                    <img src="./images/checkBox_phone.svg" alt="Feature private search">
-                    <h3 class="features" >Private Search</h3>
-                </div>
-                <div >
-                    <img src="./images/checkBox_phone.svg" alt="Feature Tracker blocking check box image">
-                    <h3 class="features">Tracker Blocking</h3>
-                </div>
-                <div >
-                    <img src="./images/checkBox_phone.svg" alt="Site Encryption check box image">
-                    <h3 class="features">Site Encryption</h3>
-                </div>
+        <div class="search_container">
+          <input class="search_input" type="search" placeholder="Search the web" />
+          <button type="submit" class="search-button">
+          <img src="./images/serch_icon.png" alt="search icon" />
+        </button>
+        </div>
+
+        <!-- <form action="/" method="GET" class="form">
+            <input type="search" placeholder="Search" class="search-field" />
+            <button type="submit" class="search-button">
+              <img src="">
+            </button>
+          </form> -->
+
+
+
+        <h1>Tired of your data being squeezed? Here to help!</h1>
+        <p class="information">
+          Get the online privacy protection you deserve for free with one
+          download in the App store:
+        </p>
+
+        <div class="feature-container">
+          <div>
+            <img
+              src="./images/checkBox_phone.svg"
+              alt="Feature private search"
+            />
+            <h3 class="features">Private Search</h3>
+          </div>
+          <div>
+            <img
+              src="./images/checkBox_phone.svg"
+              alt="Feature Tracker blocking check box image"
+            />
+            <h3 class="features">Tracker Blocking</h3>
+          </div>
+          <div>
+            <img
+              src="./images/checkBox_phone.svg"
+              alt="Site Encryption check box image"
+            />
+            <h3 class="features">Site Encryption</h3>
+          </div>
+        </div>
+
+        <div class="button-rating-container">
+          <button id="button-download">Download now</button>
+
+          <div class="rating-container-main">
+            <div class="rating-container">
+              <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+              <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+              <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+              <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+              <img src="./images/ratingLight.png" alt="Rated 4 of 5" />
             </div>
-
-
-            <div class="button-rating-container" >
-                <button id="button-download" >Download now</button>
-
-                <div class="rating-container-main" >
-                    <div class="rating-container" >
-                        <img src="./images/ratingDark.png" alt="Rated 4 of 5">
-                        <img src="./images/ratingDark.png" alt="Rated 4 of 5">
-                        <img src="./images/ratingDark.png" alt="Rated 4 of 5">
-                        <img src="./images/ratingDark.png" alt="Rated 4 of 5">
-                        <img src="./images/ratingLight.png" alt="Rated 4 of 5">
-                    </div>
-                    <h3 class="rating" >Rated 4/5</h3>
-                </div>
-                
-            </div>
-
-            
-
-        </section>
+            <h3 class="rating">Rated 4/5</h3>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>Privacy for everyone</p>
+      <p>Privacy for everyone</p>
     </footer>
-</body>
+  </body>
 </html>
